@@ -1,0 +1,50 @@
+
+.container{
+    margin: 10%
+}
+   
+        h1{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 25px;
+            color:black ; 
+        }
+        h2{  font-family: Arial, Helvetica, sans-serif;
+            font-size: 18px;
+            color: black;   
+        }
+.box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: baseline
+    
+}
+.Menubalk{
+    padding: 0 30px  0 30px;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+   font-family: Arial, Helvetica, sans-serif;
+   color: white
+   
+}
+
+.me{
+  background-color: lightskyblue
+}
+.hobby{
+   background-color: lightskyblue
+}
+.toekomst{
+   background-color: lightskyblue
+}
+.portfolio{
+    background-color: #006EFF
+}
+
+img{
+  max-width: 30%;
+
+}
